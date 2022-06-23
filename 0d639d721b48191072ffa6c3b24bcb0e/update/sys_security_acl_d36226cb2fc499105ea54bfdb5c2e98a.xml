@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>ACL for Data broker: Content set - Related items list</description>
+        <name>536226cb5cc4991064220863417c6e8a</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-17 11:25:40</sys_created_on>
+        <sys_id>d36226cb2fc499105ea54bfdb5c2e98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>536226cb5cc4991064220863417c6e8a</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_security_acl_d36226cb2fc499105ea54bfdb5c2e98a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-17 11:25:40</sys_updated_on>
+        <type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type>
+    </sys_security_acl>
+</record_update>

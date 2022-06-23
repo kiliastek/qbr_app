@@ -7,7 +7,7 @@
         <hint/>
         <name/>
         <order/>
-        <roles>x_snc_qbr.qbr_manager</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>fabrizio.egidi</sys_created_by>
         <sys_created_on>2022-06-16 11:03:15</sys_created_on>

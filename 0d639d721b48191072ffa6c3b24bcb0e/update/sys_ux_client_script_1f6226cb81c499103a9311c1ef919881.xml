@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Catalog Item Page">df6226cbcdc49910cf036b6bdba10d87</macroponent>
+        <name>Set Related item sysId</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    api.setState("relatedItemSysId", event.payload.sysId);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-17 11:25:41</sys_created_on>
+        <sys_id>1f6226cb81c499103a9311c1ef919881</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Related item sysId</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_client_script_1f6226cb81c499103a9311c1ef919881</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-17 11:25:41</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

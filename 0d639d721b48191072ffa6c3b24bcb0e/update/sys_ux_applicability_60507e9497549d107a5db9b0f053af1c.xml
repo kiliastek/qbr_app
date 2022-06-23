@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_qbr.Audience for appQBR Meeting Overview</api_name>
+        <description/>
+        <name>Audience for appQBR Meeting Overview</name>
+        <roles>67631d721b48191072ffa6c3b24bcb82</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:38:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60507e9497549d107a5db9b0f053af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for appQBR Meeting Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_applicability_60507e9497549d107a5db9b0f053af1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:38:45</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

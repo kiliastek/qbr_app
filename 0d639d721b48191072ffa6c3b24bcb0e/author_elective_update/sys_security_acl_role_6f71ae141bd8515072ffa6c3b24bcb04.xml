@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 08:33:58</sys_created_on>
+        <sys_id>6f71ae141bd8515072ffa6c3b24bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_qbr_meeting.x_snc_qbr.qbr_manager</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_security_acl display_value="x_snc_qbr_meeting">ef71ae141bd8515072ffa6c3b24bcb01</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6f71ae141bd8515072ffa6c3b24bcb04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 08:33:58</sys_updated_on>
+        <sys_user_role display_value="x_snc_qbr.qbr_manager" name="x_snc_qbr.qbr_manager">67631d721b48191072ffa6c3b24bcb82</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</application>
+        <file_path/>
+        <instance_id>934296bddbcc5d1c52cec59705961982</instance_id>
+        <instance_name>qbrdemo</instance_name>
+        <name>sys_security_acl_role_6f71ae141bd8515072ffa6c3b24bcb04</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-21 08:33:58</sys_created_on><sys_id>6f71ae141bd8515072ffa6c3b24bcb04</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_qbr_meeting.x_snc_qbr.qbr_manager</sys_name><sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package><sys_policy/><sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope><sys_security_acl display_value="x_snc_qbr_meeting">ef71ae141bd8515072ffa6c3b24bcb01</sys_security_acl><sys_update_name>sys_security_acl_role_6f71ae141bd8515072ffa6c3b24bcb04</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-21 08:33:58</sys_updated_on><sys_user_role display_value="x_snc_qbr.qbr_manager" name="x_snc_qbr.qbr_manager">67631d721b48191072ffa6c3b24bcb82</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1680137168</payload_hash>
+        <record_name>x_snc_qbr_meeting.x_snc_qbr.qbr_manager</record_name>
+        <reverted_from/>
+        <source>114dd5cb1b00991072ffa6c3b24bcbb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 08:33:58</sys_created_on>
+        <sys_id>a771ae141bd8515072ffa6c3b24bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18185659d680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 08:33:58</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e771ae1432d851507ec09c3c47340b06</update_guid>
+        <update_guid_history>e771ae1432d851507ec09c3c47340b06:-1680137168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_qbr_meeting.x_snc_qbr.qbr_manager">b3c1321c1b10111072ffa6c3b24bcb99</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:45:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8b4393fbdfa04e259df7559abda002c9</sys_id>
+        <sys_metadata>6f71ae141bd8515072ffa6c3b24bcb04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_qbr_meeting.x_snc_qbr.qbr_manager</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_parent display_value="x_snc_qbr_meeting">ef71ae141bd8515072ffa6c3b24bcb01</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_scope_delete display_value="">1cb5ccab21c9454c80e6de7b44fb7299</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6f71ae141bd8515072ffa6c3b24bcb04</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6f71ae141bd8515072ffa6c3b24bcb04">a771ae141bd8515072ffa6c3b24bcb13</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:45:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

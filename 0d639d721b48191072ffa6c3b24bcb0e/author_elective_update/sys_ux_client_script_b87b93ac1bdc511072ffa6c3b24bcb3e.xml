@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Voting">f003e60f1bc4991072ffa6c3b24bcb08</macroponent>
+        <name>stylized_text_8_text</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return '<b> Votes: </b> ' + api.item.value.votes;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 07:25:40</sys_created_on>
+        <sys_id>b87b93ac1bdc511072ffa6c3b24bcb3e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>stylized_text_8_text</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_client_script_b87b93ac1bdc511072ffa6c3b24bcb3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 07:26:23</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</application>
+        <file_path/>
+        <instance_id>934296bddbcc5d1c52cec59705961982</instance_id>
+        <instance_name>qbrdemo</instance_name>
+        <name>sys_ux_client_script_b87b93ac1bdc511072ffa6c3b24bcb3e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Voting"&gt;f003e60f1bc4991072ffa6c3b24bcb08&lt;/macroponent&gt;&lt;name&gt;stylized_text_8_text&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return '&lt;b&gt; Votes: &lt;/b&gt; ' + api.item.value.votes;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-22 07:25:40&lt;/sys_created_on&gt;&lt;sys_id&gt;b87b93ac1bdc511072ffa6c3b24bcb3e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;stylized_text_8_text&lt;/sys_name&gt;&lt;sys_package display_value="QBR Management" source="x_snc_qbr"&gt;0d639d721b48191072ffa6c3b24bcb0e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="QBR Management"&gt;0d639d721b48191072ffa6c3b24bcb0e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_b87b93ac1bdc511072ffa6c3b24bcb3e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-22 07:26:23&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1111441835</payload_hash>
+        <record_name>stylized_text_8_text</record_name>
+        <reverted_from/>
+        <source>114dd5cb1b00991072ffa6c3b24bcbb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 07:26:23</sys_created_on>
+        <sys_id>539b1f6c1bdc511072ffa6c3b24bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1818a4e1b9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 07:26:23</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d79b1f6cccdc5110a52da116ded75246</update_guid>
+        <update_guid_history>d79b1f6cccdc5110a52da116ded75246:1111441835,127b13ac3cdc511097cf0e48a8884304:312575806,b07b5fac3cdc5110a131a2aa39256549:1708960024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 07:28:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>39bf7c629c104b6097ea32868abb0690</sys_id>
+        <sys_metadata>b87b93ac1bdc511072ffa6c3b24bcb3e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>stylized_text_8_text</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_scope_delete display_value="">1cb5ccab21c9454c80e6de7b44fb7299</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_b87b93ac1bdc511072ffa6c3b24bcb3e</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_b87b93ac1bdc511072ffa6c3b24bcb3e">539b1f6c1bdc511072ffa6c3b24bcb47</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 07:28:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

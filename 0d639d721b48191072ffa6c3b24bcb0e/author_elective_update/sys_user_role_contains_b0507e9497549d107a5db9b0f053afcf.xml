@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_snc_qbr.qbr_manager" name="x_snc_qbr.qbr_manager">67631d721b48191072ffa6c3b24bcb82</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:38:46</sys_created_on>
+        <sys_id>b0507e9497549d107a5db9b0f053afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_snc_qbr.qbr_manager</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_user_role_contains_b0507e9497549d107a5db9b0f053afcf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:38:46</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</application>
+        <file_path/>
+        <instance_id>934296bddbcc5d1c52cec59705961982</instance_id>
+        <instance_name>qbrdemo</instance_name>
+        <name>sys_user_role_contains_b0507e9497549d107a5db9b0f053afcf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains><role display_value="x_snc_qbr.qbr_manager" name="x_snc_qbr.qbr_manager">67631d721b48191072ffa6c3b24bcb82</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-21 09:38:46</sys_created_on><sys_id>b0507e9497549d107a5db9b0f053afcf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>canvas_user.x_snc_qbr.qbr_manager</sys_name><sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package><sys_policy/><sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope><sys_update_name>sys_user_role_contains_b0507e9497549d107a5db9b0f053afcf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-21 09:38:46</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-1269409378</payload_hash>
+        <record_name>canvas_user.x_snc_qbr.qbr_manager</record_name>
+        <reverted_from/>
+        <source>114dd5cb1b00991072ffa6c3b24bcbb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:38:46</sys_created_on>
+        <sys_id>bc507e9497549d107a5db9b0f053aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18185a0f3f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:38:46</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>b4507e945d549d1063844d8174eb14f9</update_guid>
+        <update_guid_history>b4507e945d549d1063844d8174eb14f9:-1269409378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:45:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>213a0af1d38c4b92bfe4887511305604</sys_id>
+        <sys_metadata>b0507e9497549d107a5db9b0f053afcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_snc_qbr.qbr_manager</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_scope_delete display_value="">1cb5ccab21c9454c80e6de7b44fb7299</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_b0507e9497549d107a5db9b0f053afcf</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_b0507e9497549d107a5db9b0f053afcf">bc507e9497549d107a5db9b0f053aff9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:45:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,dcc732935301101017caddeeff7b1255</associated_types>
+        <image display_value="ui-builder-templates-one-region.svg">a560964877311010d99bbc3f681061ce</image>
+        <label>Portal Page with Background</label>
+        <macroponent display_value="Portal Page">d36226cb43c4991030f31a9aa7901e89</macroponent>
+        <order>0</order>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-17 11:25:40</sys_created_on>
+        <sys_id>df6226cbfbc4991025f73c32ddd93688</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Page with Background</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_uib_template_df6226cbfbc4991025f73c32ddd93688</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-17 11:25:40</sys_updated_on>
+    </sys_uib_template>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Agenda Item" max_length="40" name="x_snc_qbr_agenda_item" sizeclass="6" text_index="true" type="collection">
+        <element label="Meeting" max_length="32" name="meeting" reference="x_snc_qbr_meeting" type="reference"/>
+        <element default="0" label="Votes" max_length="40" name="votes" type="integer"/>
+    </element>
+</database>

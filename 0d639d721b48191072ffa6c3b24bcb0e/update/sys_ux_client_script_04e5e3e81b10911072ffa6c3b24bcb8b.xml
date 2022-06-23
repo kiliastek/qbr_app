@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Voting">f003e60f1bc4991072ffa6c3b24bcb08</macroponent>
+        <name>Create new agenda item</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    console.log('Submit clicked!');
+
+    const createQuery = 'short_description=' + api.state.agendaItem + '^meeting=c6f16a541bd8515072ffa6c3b24bcbec';
+
+    api.data.create_agenda_item.execute({
+        "table": "x_snc_qbr_agenda_item",
+        "templateFields": createQuery,
+        "useSetDisplayValue": false
+
+
+    });
+
+    api.data.get_agenda_item_data_1.refresh();
+    // create success message
+    api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+        items: [{
+            status: 'positive',
+            icon: 'thumbs-up-outline',
+            header: 'Success: ',
+            content: 'Agenda Item was created',
+            action: {
+                type: 'dismiss'
+            }
+        }]
+    });
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 08:11:13</sys_created_on>
+        <sys_id>04e5e3e81b10911072ffa6c3b24bcb8b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Create new agenda item</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_client_script_04e5e3e81b10911072ffa6c3b24bcb8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 09:16:55</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

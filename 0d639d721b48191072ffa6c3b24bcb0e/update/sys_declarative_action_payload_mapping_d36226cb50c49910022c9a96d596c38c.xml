@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Reject">db6226cbb1c49910d1d3155bb209f78c</action_payload_definition>
+        <label>Reject Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-17 11:25:40</sys_created_on>
+        <sys_id>d36226cb50c49910022c9a96d596c38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Evam</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_d36226cb50c49910022c9a96d596c38c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-17 11:25:40</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

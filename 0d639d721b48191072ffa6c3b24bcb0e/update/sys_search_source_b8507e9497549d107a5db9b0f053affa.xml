@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_snc_qbr_meeting">active=true</condition>
+        <group/>
+        <name>QBR Meeting Overview - x_snc_qbr_meeting</name>
+        <roles/>
+        <source_table>x_snc_qbr_meeting</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:38:46</sys_created_on>
+        <sys_id>b8507e9497549d107a5db9b0f053affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QBR Meeting Overview - x_snc_qbr_meeting</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_search_source_b8507e9497549d107a5db9b0f053affa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:38:46</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8507e9497549d107a5db9b0f053affa"/>
+</record_update>

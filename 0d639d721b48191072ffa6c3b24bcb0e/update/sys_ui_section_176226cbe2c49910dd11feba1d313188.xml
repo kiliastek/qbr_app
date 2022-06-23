@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="176226cbe2c49910dd11feba1d313188" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_snc_qbr">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-06-17 11:25:39</sys_created_on>
+            <sys_id>5b6226cb64c499103df850fbe3bf3288</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="d76226cb82c499107c034ca8616ed788">176226cbe2c49910dd11feba1d313188</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-06-17 11:25:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-06-17 11:25:39</sys_created_on>
+            <sys_id>db6226cbb8c499101a2c1f6db6ae5088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="d76226cb82c499107c034ca8616ed788">176226cbe2c49910dd11feba1d313188</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-06-17 11:25:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-06-17 11:25:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>176226cbe2c49910dd11feba1d313188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+            <sys_update_name>sys_ui_section_176226cbe2c49910dd11feba1d313188</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-06-17 11:25:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_snc_qbr)" name="custom_portal_approval_x_snc_qbr">d76226cb82c499107c034ca8616ed788</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

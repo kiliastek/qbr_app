@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>100</order>
-        <role display_value="x_snc_qbr.qbr_manager" name="x_snc_qbr.qbr_manager">67631d721b48191072ffa6c3b24bcb82</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>fabrizio.egidi</sys_created_by>
         <sys_created_on>2022-06-16 11:02:01</sys_created_on>

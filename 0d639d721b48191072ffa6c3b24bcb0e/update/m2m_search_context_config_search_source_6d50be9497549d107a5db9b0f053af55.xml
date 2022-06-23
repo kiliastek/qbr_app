@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="QBR Meeting Overview - Workspace Search">23403e9480549d10d09d53fd0f24c9a5</search_context_config>
+        <source display_value="QBR Meeting Overview - x_snc_qbr_meeting_definitio">8950be9497549d107a5db9b0f053af36</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 09:38:49</sys_created_on>
+        <sys_id>6d50be9497549d107a5db9b0f053af55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_6d50be9497549d107a5db9b0f053af55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 09:38:49</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>
