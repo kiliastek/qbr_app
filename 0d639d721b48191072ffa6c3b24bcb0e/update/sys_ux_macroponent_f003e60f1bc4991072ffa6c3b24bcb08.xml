@@ -154,11 +154,11 @@
               "elementLabel" : "Stylized text 2",
               "propertyValues" : {
                 "text" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "QBR Date: 07.07.2022",
-                    "comment" : ""
+                  "type" : "CLIENT_TRANSFORM_SCRIPT",
+                  "script" : {
+                    "apiVersion" : "2.0.0",
+                    "inlineScript" : null,
+                    "scriptSysId" : "26131152971415107a5db9b0f053af88"
                   }
                 },
                 "tag" : {
@@ -192,11 +192,11 @@
               "elementLabel" : "Stylized text 9",
               "propertyValues" : {
                 "text" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "Start time: 14:00 p.m.",
-                    "comment" : ""
+                  "type" : "CLIENT_TRANSFORM_SCRIPT",
+                  "script" : {
+                    "apiVersion" : "2.0.0",
+                    "inlineScript" : null,
+                    "scriptSysId" : "33b39512971415107a5db9b0f053af3c"
                   }
                 },
                 "tag" : {
@@ -1360,8 +1360,10 @@
                   "value" : null
                 },
                 "value" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
+                  "type" : "STATE_BINDING",
+                  "binding" : {
+                    "address" : [ "agendaItem" ]
+                  }
                 },
                 "readonly" : {
                   "type" : "JSON_LITERAL",
@@ -1658,8 +1660,11 @@
   "eventMappings" : [ ],
   "inputValues" : {
     "meetingId" : {
-      "type" : "JSON_LITERAL",
-      "value" : "c6f16a541bd8515072ffa6c3b24bcbec"
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "meetingId" ],
+        "category" : "props"
+      }
     }
   },
   "readEvaluationMode" : "EAGER"
@@ -1673,6 +1678,40 @@
   "eventMappings" : [ ],
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
+}, {
+  "definition" : {
+    "id" : "9664d48053461010cbc2ddeeff7b128e",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_meeting",
+  "elementLabel" : "Look Up Meeting",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_qbr_meeting"
+    },
+    "recordId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "meetingId" ],
+        "category" : "props"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "name,state,start,end"
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
 } ]</data>
         <dispatched_events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
@@ -1695,7 +1734,19 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Voting</name>
-        <props>[ ]</props>
+        <props>[ {
+  "name" : "meetingId",
+  "label" : "meetingId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
         <required_translations>[ {
   "message" : "Add your Agenda Item",
   "comment" : ""
@@ -1706,9 +1757,6 @@
   "message" : "Proposed Agenda Items:",
   "comment" : ""
 }, {
-  "message" : "QBR Date: 07.07.2022",
-  "comment" : ""
-}, {
   "message" : "Search",
   "comment" : ""
 }, {
@@ -1716,9 +1764,6 @@
   "comment" : ""
 }, {
   "message" : "Start search",
-  "comment" : ""
-}, {
-  "message" : "Start time: 14:00 p.m.",
   "comment" : ""
 }, {
   "message" : "Submit",
@@ -1750,13 +1795,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-17 11:28:12</sys_created_on>
         <sys_id>f003e60f1bc4991072ffa6c3b24bcb08</sys_id>
-        <sys_mod_count>81</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>Voting</sys_name>
         <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
         <sys_policy/>
         <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
         <sys_update_name>sys_ux_macroponent_f003e60f1bc4991072ffa6c3b24bcb08</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-23 09:12:31</sys_updated_on>
+        <sys_updated_on>2022-06-27 14:16:20</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
     <sys_ux_page_property action="INSERT_OR_UPDATE">
         <choices/>
-        <description/>
+        <description>df28e3db0f1210107d20409dc4767ee0</description>
         <name>actionConfigId</name>
         <page display_value="QBR Meeting Overview">af403e946e549d1065c8b2b27060d6a8</page>
         <required_translations>[]</required_translations>
@@ -13,17 +13,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>67403e94da549d107e2f6c8380707ca6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>actionConfigId</sys_name>
         <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
         <sys_policy/>
         <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
         <sys_update_name>sys_ux_page_property_67403e94da549d107e2f6c8380707ca6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-21 09:38:42</sys_updated_on>
+        <sys_updated_on>2022-06-27 13:45:30</sys_updated_on>
         <type>string</type>
         <unique_name>x_snc_qbr.af403e946e549d1065c8b2b27060d6a8.root.actionConfigId</unique_name>
-        <value>df28e3db0f1210107d20409dc4767ee0</value>
+        <value>1fba1a92979815107a5db9b0f053af9b</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=67403e94da549d107e2f6c8380707ca6"/>
 </record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <fields>userGivenTable,table,label,parentRecordSysId,parentFieldName,referencedFieldName,extensionPoint,view,columns,hideSelectAll,type,relatedListName</fields>
+        <icon/>
+        <name>QBR Record DA Modal Multi-Record Associator</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">9cfa625e97d815107a5db9b0f053af1c</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>mra</route_type>
+        <screen_type display_value="DA Modal Multi-Record Associator">5413351eff67501035be517f793bf1ce</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 14:23:11</sys_created_on>
+        <sys_id>adfae25e97d815107a5db9b0f053af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QBR Record DA Modal Multi-Record Associator</sys_name>
+        <sys_package display_value="Agent Workspace - Declarative Actions" source="com.snc.agent_workspace.declarative_actions">3b3e56bd1bc0111072ffa6c3b24bcbd1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_app_route_adfae25e97d815107a5db9b0f053af0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 14:23:11</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=adfae25e97d815107a5db9b0f053af0e"/>
+</record_update>

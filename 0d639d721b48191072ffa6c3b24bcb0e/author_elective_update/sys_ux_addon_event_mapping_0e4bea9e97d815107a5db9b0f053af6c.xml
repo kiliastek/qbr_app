@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>QBR Record - 3.0.0 preview. QBR Record Agenda Item Voting</name>
+        <parent_macroponent display_value="Record">2a0b665e97d815107a5db9b0f053afef</parent_macroponent>
+        <source_da display_value="agenda_item_voting">27679612979815107a5db9b0f053af03</source_da>
+        <source_element_id>ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 14:24:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e4bea9e97d815107a5db9b0f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QBR Record - 3.0.0 preview. QBR Record Agenda Item Voting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_0e4bea9e97d815107a5db9b0f053af6c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 14:24:35</sys_updated_on>
+        <target_event display_value="RECORD#NAV_ITEM_SELECTED">835ec4a00f4310107d20409dc4767eaa</target_event>
+        <target_payload_mapping/>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</application>
+        <file_path/>
+        <instance_id>934296bddbcc5d1c52cec59705961982</instance_id>
+        <instance_name>qbrdemo</instance_name>
+        <name>sys_ux_addon_event_mapping_0e4bea9e97d815107a5db9b0f053af6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><description/><name>QBR Record - 3.0.0 preview. QBR Record Agenda Item Voting</name><parent_macroponent display_value="Record">2a0b665e97d815107a5db9b0f053afef</parent_macroponent><source_da display_value="agenda_item_voting">27679612979815107a5db9b0f053af03</source_da><source_element_id>ui_action_bar</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-27 14:24:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0e4bea9e97d815107a5db9b0f053af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>QBR Record - 3.0.0 preview. QBR Record Agenda Item Voting</sys_name><sys_overrides/><sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package><sys_policy/><sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope><sys_update_name>sys_ux_addon_event_mapping_0e4bea9e97d815107a5db9b0f053af6c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-27 14:24:35</sys_updated_on><target_event display_value="RECORD#NAV_ITEM_SELECTED">835ec4a00f4310107d20409dc4767eaa</target_event><target_payload_mapping/></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>-1599154431</payload_hash>
+        <record_name>QBR Record - 3.0.0 preview. QBR Record Agenda Item Voting</record_name>
+        <reverted_from/>
+        <source>114dd5cb1b00991072ffa6c3b24bcbb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 14:24:35</sys_created_on>
+        <sys_id>c24bea9e97d815107a5db9b0f053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181a58cc70b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 14:24:35</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>ca4bea9ed0d815105e91b9580caa9f6d</update_guid>
+        <update_guid_history>ca4bea9ed0d815105e91b9580caa9f6d:-1599154431</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 14:28:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>48858960af6848089419897a34165840</sys_id>
+        <sys_metadata>0e4bea9e97d815107a5db9b0f053af6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QBR Record - 3.0.0 preview. QBR Record Agenda Item Voting</sys_name>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_scope_delete display_value="">1cb5ccab21c9454c80e6de7b44fb7299</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_0e4bea9e97d815107a5db9b0f053af6c</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_0e4bea9e97d815107a5db9b0f053af6c">c24bea9e97d815107a5db9b0f053af6e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 14:28:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

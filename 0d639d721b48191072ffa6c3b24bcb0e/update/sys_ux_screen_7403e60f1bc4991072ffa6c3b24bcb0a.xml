@@ -6,6 +6,10 @@
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Voting">f003e60f1bc4991072ffa6c3b24bcb08</macroponent>
         <macroponent_config>{
+  "meetingId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
   "label" : {
     "type" : "TRANSLATION_LITERAL",
     "value" : {
@@ -52,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7403e60f1bc4991072ffa6c3b24bcb0a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Voting default</sys_name>
         <sys_overrides/>
         <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
@@ -60,7 +64,7 @@
         <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
         <sys_update_name>sys_ux_screen_7403e60f1bc4991072ffa6c3b24bcb0a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-17 11:32:25</sys_updated_on>
+        <sys_updated_on>2022-06-27 07:38:56</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=7403e60f1bc4991072ffa6c3b24bcb0a"/>
 </record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="QBR Meeting Overview Config">eb403e94fc549d10b9f4f23d692e92a8</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Business process reject modal">c81be65e97d815107a5db9b0f053afec</macroponent>
+        <macroponent_config>{
+  "table" : "@context.props.table",
+  "sysId" : "@context.props.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "headingOnlyVisibleToScreenReaders" : false,
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Business process reject modal screen</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">2a0b665e97d815107a5db9b0f053afef</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="QBR Record Business process reject modal route">7f0be65e97d815107a5db9b0f053afc2</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 14:23:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>881be65e97d815107a5db9b0f053afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business process reject modal screen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
+        <sys_update_name>sys_ux_screen_881be65e97d815107a5db9b0f053afee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 14:23:38</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=881be65e97d815107a5db9b0f053afee"/>
+</record_update>

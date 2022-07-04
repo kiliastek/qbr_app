@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Meeting" max_length="40" name="x_snc_qbr_meeting" sizeclass="1" text_index="true" type="collection">
+    <element label="Meeting" max_length="40" name="x_snc_qbr_meeting" sizeclass="3" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Meeting end time" max_length="40" name="end" type="glide_date_time"/>
         <element label="Meeting notes" max_length="40" name="meeting_notes" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="120" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Meeting start time" max_length="40" name="start" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="pending" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
                 <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>

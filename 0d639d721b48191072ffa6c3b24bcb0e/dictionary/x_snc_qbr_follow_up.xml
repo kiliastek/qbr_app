@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Follow-up" max_length="40" name="x_snc_qbr_follow_up" sizeclass="0" type="collection">
+        <element label="Meeting" max_length="32" name="meeting" reference="x_snc_qbr_meeting" type="reference"/>
+    </element>
+</database>

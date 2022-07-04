@@ -2,17 +2,59 @@
     <sys_ui_related sys_domain="global" table="x_snc_qbr_meeting" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Meeting - Default view" name="x_snc_qbr_meeting" related_list="NULL" sys_domain="global" view="Default view">7115ead81bd8515072ffa6c3b24bcbf3</list_id>
+            <list_id display_value="Meeting - Default view" name="x_snc_qbr_meeting" related_list="NULL" sys_domain="global" view="Default view">8c7873a6971895107a5db9b0f053af9c</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_snc_qbr_agenda_item.meeting</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-06-21 08:49:41</sys_created_on>
-            <sys_id>7d15ead81bd8515072ffa6c3b24bcbf4</sys_id>
+            <sys_created_on>2022-06-28 14:40:10</sys_created_on>
+            <sys_id>cc7873a6971895107a5db9b0f053af9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-06-21 08:49:41</sys_updated_on>
+            <sys_updated_on>2022-06-28 14:40:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Meeting - Default view" name="x_snc_qbr_meeting" related_list="NULL" sys_domain="global" view="Default view">8c7873a6971895107a5db9b0f053af9c</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_snc_qbr_attendee.meeting</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-28 14:40:10</sys_created_on>
+            <sys_id>c47873a6971895107a5db9b0f053af9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-28 14:40:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Meeting - Default view" name="x_snc_qbr_meeting" related_list="NULL" sys_domain="global" view="Default view">8c7873a6971895107a5db9b0f053af9c</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_snc_qbr_preread.meeting</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-28 14:40:10</sys_created_on>
+            <sys_id>c87873a6971895107a5db9b0f053af9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-28 14:40:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Meeting - Default view" name="x_snc_qbr_meeting" related_list="NULL" sys_domain="global" view="Default view">8c7873a6971895107a5db9b0f053af9c</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_snc_qbr_follow_up.meeting</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-28 14:40:10</sys_created_on>
+            <sys_id>cc7873a6971895107a5db9b0f053af9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-28 14:40:10</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Meeting - Default view</calculated_name>
@@ -23,10 +65,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-06-21 08:49:41</sys_created_on>
+            <sys_created_on>2022-06-28 14:40:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7115ead81bd8515072ffa6c3b24bcbf3</sys_id>
+            <sys_id>8c7873a6971895107a5db9b0f053af9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Meeting - Default view</sys_name>
             <sys_package display_value="QBR Management" source="x_snc_qbr">0d639d721b48191072ffa6c3b24bcb0e</sys_package>
@@ -34,7 +76,7 @@
             <sys_scope display_value="QBR Management">0d639d721b48191072ffa6c3b24bcb0e</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_qbr_meeting_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-06-21 08:49:41</sys_updated_on>
+            <sys_updated_on>2022-06-28 14:40:10</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
